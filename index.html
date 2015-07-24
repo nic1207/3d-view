@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>three.js webgl - cameras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+      body {
+        color: #808080;
+        font-family:Monospace;
+        font-size:13px;
+        text-align:center;
+
+        background-color: #000;
+        margin: 0px;
+        overflow: hidden;
+      }
+
+      #info {
+        position: absolute;
+        top: 0px; width: 100%;
+        padding: 5px;
+        z-index: 100;
+      }
+
+      a {
+
+        color: #0080ff;
+      }
+
+      b { color: lightgreen }
+
+      #stats { position: absolute; top:0; left: 0 }
+      #stats #fps { background: transparent !important }
+      #stats #fps #fpsText { color: #777 !important }
+      #stats #fps #fpsGraph { display: none }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    <script src="js/three.js"></script>
+    <script src="js/THREEx.KeyboardState.js"></script>
+    <script src="js/visualize.js"></script>
+    <script src="js/stats.min.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/mousekeyboard.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
